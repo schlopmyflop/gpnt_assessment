@@ -40,6 +40,7 @@ python main.py
 // app overview
 
 data enrichment
+
     - use endLat and endLon to enrich data when doLocationId is null
     - use doLocationId to enrich data when endLat and endLon are null
 basic app flow:
