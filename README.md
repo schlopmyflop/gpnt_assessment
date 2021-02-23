@@ -1,6 +1,7 @@
 this app was written for linux-based OS specifically Ubuntu 20.04. below are instructions that should allow the app to run without issue. 
 
 // install dotnet runtime
+
 sudo apt-get update; \
   sudo apt-get install -y apt-transport-https && \
   sudo apt-get update && \
