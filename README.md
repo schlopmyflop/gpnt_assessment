@@ -1,43 +1,43 @@
 this app was written for linux-based OS specifically Ubuntu 20.04. below are instructions that should allow the app to run without issue. 
 
-// install dotnet runtime
+install dotnet runtime
 
     sudo apt-get update; \
     sudo apt-get install -y apt-transport-https && \
     sudo apt-get update && \
     sudo apt-get install -y dotnet-runtime-2.1
 
-// get virtual environment package
+get virtual environment package
 
     sudo apt-get install python3-venv
 
-// pull the repo
+pull the repo
 
     git clone https://github.com/schlopmyflop/gpnt_assessment.git [[directory name]]
 
-// cd into the new directory
+cd into the new directory
 
     cd [[directory name]
 
-// create the virtual environment
+create the virtual environment
 
     python3 -m venv venv
 
-// activate the virtual environment
+activate the virtual environment
 
     source venv/bin/activate
 
-// install requirements
+install requirements
 
     pip install -r requirements.txt
 
-// run the app
+run the app
 
     python main.py
 
-// output file will be in the [[directory name]] directory as "output.csv"
+output file will be in the [[directory name]] directory as "output.csv"
 
-// app overview
+app overview
 
 data enrichment
 
